@@ -160,6 +160,85 @@ console.log("Welcome to my profile!");
 
 ---
 
+## 💼 My Workflow
+
+<div align="center">
+
+```mermaid
+graph LR
+    A[📝 Plan] --> B[💻 Code]
+    B --> C[🧪 Test]
+    C --> D[🔍 Review]
+    D --> E[🚀 Deploy]
+    E --> F[📊 Monitor]
+    F --> A
+```
+
+</div>
+
+### Development Process
+
+**1️⃣ Planning & Design**
+- 📋 Break down requirements into actionable tasks
+- 🎯 Define clear objectives and success metrics
+- 📐 Design architecture and data flow
+- 🗺️ Create wireframes and mockups when needed
+
+**2️⃣ Implementation**
+- ⚡ Write clean, maintainable code
+- 🔄 Follow version control best practices
+- 📚 Document code and API endpoints
+- 🎨 Ensure responsive and accessible UI
+
+**3️⃣ Testing & Quality**
+- ✅ Write unit and integration tests
+- 🐛 Debug and fix issues systematically
+- 🔒 Conduct security reviews
+- 📈 Optimize performance
+
+**4️⃣ Deployment & Monitoring**
+- 🚀 Deploy to staging/production environments
+- 📊 Monitor application performance
+- 🔧 Iterate based on feedback
+- 📝 Maintain documentation
+
+### Tools & Practices
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <b>🔧 Development</b><br/>
+      VS Code<br/>
+      Git & GitHub<br/>
+      Docker<br/>
+      Postman
+    </td>
+    <td align="center">
+      <b>🎯 Methodology</b><br/>
+      Agile/Scrum<br/>
+      Test-Driven Dev<br/>
+      CI/CD<br/>
+      Code Reviews
+    </td>
+    <td align="center">
+      <b>📚 Learning</b><br/>
+      Daily Practice<br/>
+      Side Projects<br/>
+      Tech Articles<br/>
+      Open Source
+    </td>
+    <td align="center">
+      <b>🤝 Collaboration</b><br/>
+      Clear Communication<br/>
+      Documentation<br/>
+      Knowledge Sharing<br/>
+      Team Feedback
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 📫 Connect
 
 <div align="center">
