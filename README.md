@@ -1,190 +1,136 @@
-<!--
-**minhe51805/minhe51805** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
-
 <div align="center">
 
-# 👨‍💻 minhe51805
+# 👋 Hi, I'm Trương Dương Bảo Minh
 
-**Full Stack Developer | Code Enthusiast**
+**Full Stack Developer | AI & IoT Enthusiast**
+
+[![Profile Views](https://komarev.com/ghpvc/?username=minhe51805&color=0e75b6&style=flat)](https://github.com/minhe51805)
+[![GitHub followers](https://img.shields.io/github/followers/minhe51805?label=Follow&style=social)](https://github.com/minhe51805)
 
 </div>
 
 ---
 
-## About Me
+## 👨‍💻 About Me
 
-<img align="right" alt="Coding" width="250" src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif">
+<img align="right" alt="Coding" width="300" src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif">
 
-```javascript
-const developer = {
-    name: "minhe51805",
-    location: "Vietnam 🇻🇳",
-    role: "Full Stack Developer",
-    languages: ["Vietnamese", "English"],
+```cpp
+class FullStackDeveloper {
+public:
+    // Personal Info
+    string name = "Trương Dương Bảo Minh";
+    string location = "Ho Chi Minh City, Vietnam 🇻🇳";
+    string education = "HUTECH University";
+    string email = "truongminh0949@gmail.com";
     
-    currentFocus: [
-        "Building web applications",
-        "Learning new technologies", 
-        "Problem solving"
-    ],
+    // Current Status
+    vector<string> workingOn = {
+        "Web Applications",
+        "IoT Projects"
+    };
     
-    workingWith: [
-        "React", "Node.js", "Python",
-        "Flutter/Dart", "IoT/ESP32",
-        "Machine Learning", "Deep Learning",
-        "Databases", "System Design"
-    ],
+    vector<string> learning = {
+        "Machine Learning",
+        "Cloud Architecture"
+    };
     
-    motto: "Clean code, continuous learning"
+    vector<string> passions = {
+        "Clean Code",
+        "Innovation"
+    };
+    
+    void sayHi() {
+        cout << "👋 Hi! I'm a Full Stack Developer" << endl;
+        cout << "🎓 Student | 💼 Developer | 🚀 Builder" << endl;
+    }
 };
 
-console.log("Welcome to my profile!");
+int main() {
+    FullStackDeveloper minhe;
+    minhe.sayHi();
+    return 0;
+}
 ```
+
+<br clear="right"/>
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Frontend**
-<p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-</p>
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white)
+
+**Frontend & Mobile**
+
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
 
 **Backend & Database**
-<p>
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-</p>
 
-**Machine Learning & AI**
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-</p>
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
 
-**Mobile & IoT**
-<p>
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
-  <img src="https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white" />
-  <img src="https://img.shields.io/badge/IoT-FF6600?style=for-the-badge&logo=internet-of-things&logoColor=white" />
-</p>
+**AI/ML & IoT**
 
-**Other**
-<p>
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-</p>
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-000000?style=flat&logo=espressif&logoColor=white)
 
 ---
 
 ## 📊 GitHub Stats
 
 <div align="center">
-  
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=minhe51805&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&border_radius=10&include_all_commits=true&count_private=true&hide_rank=true" alt="GitHub Stats" />
-      </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=minhe51805&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&border_radius=10&langs_count=8&hide=c,assembly,makefile,cmake&include_all_commits=true&count_private=true" alt="Top Languages" />
-      </td>
-    </tr>
-  </table>
-  
-<br>
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=minhe51805&theme=tokyonight&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&border_radius=10)
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=minhe51805&show_icons=true&theme=github_dark&hide_border=true" />
+<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=minhe51805&theme=github-dark-blue&hide_border=true" />
 
-<br>
-
-<img src="https://github-profile-trophy.vercel.app/?username=minhe51805&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=6&border_radius=10" alt="GitHub Trophies"/>
-
-<br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=minhe51805&theme=tokyo-night&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&hide_border=true&border_radius=10" alt="GitHub Activity Graph"/>
-  
 </div>
 
 ---
 
-## 🗂️ Featured Projects
+## 🚀 Featured Projects
 
-### 🤖 AI & Machine Learning
-- **[AI_AGENT_ByDevMinhE5](https://github.com/minhe51805/AI_AGENT_ByDevMinhE5)** - AI Agent implementation with Python
-- **[Esp32_Data-And-Camera](https://github.com/minhe51805/Esp32_Data-And-Camera)** - IoT data processing with camera integration
-- **[TruongDuongBaoMinh_Lab06](https://github.com/minhe51805/TruongDuongBaoMinh_228060970_Lab06)** - Data science lab work
-
-### 💻 Web Development
-- **[app_web_shopping](https://github.com/minhe51805/app_web_shopping_228060170)** - E-commerce platform with Dart
-- **[Booking_Web_team](https://github.com/minhe51805/Booking_Web_team)** - Team booking system
-- **[Web3D](https://github.com/minhe51805/Web3D)** - 3D web application with JavaScript
-- **[Profile_cv](https://github.com/minhe51805/Profile_cv)** - Personal portfolio website
-
-### 📱 Mobile & IoT
-- **[NFC-master](https://github.com/minhe51805/NFC-master)** - NFC technology implementation with Dart
-- **[App-noting_reminder](https://github.com/minhe51805/App-noting_reminder)** - Note-taking reminder app
-- **[Web_SmartSwitch_BangD](https://github.com/minhe51805/Web_SmartSwitch_BangD)** - Smart switch control interface
-
-### 📊 Data & Analytics
-- **[mamothon](https://github.com/minhe51805/mamothon)** - Data processing project with TypeScript
-- **[bmttnc-hutech](https://github.com/minhe51805/bmttnc-hutech-228060970)** - Academic data analysis project
+| Project | Description | Tech Stack |
+|---------|-------------|------------|
+| [🛒 E-Commerce Platform](https://github.com/minhe51805/app_web_shopping_228060170) | Full-featured shopping web application | `Dart` `Web` |
+| [📷 ESP32 Camera System](https://github.com/minhe51805/Esp32_Data-And-Camera) | IoT data processing with camera integration | `ESP32` `IoT` `Camera` |
+| [📲 NFC Technology](https://github.com/minhe51805/NFC-master) | NFC implementation with Flutter | `Dart` `Flutter` `NFC` |
+| [🎮 3D Web App](https://github.com/minhe51805/Web3D) | Interactive 3D web experience | `JavaScript` `WebGL` |
+| [📅 Booking System](https://github.com/minhe51805/Booking_Web_team) | Team collaboration booking platform | `Web` `Team Project` |
+| [🏠 Smart Switch Control](https://github.com/minhe51805/Web_SmartSwitch_BangD) | Smart home control interface | `IoT` `Smart Home` |
 
 ---
 
-## 🚀 Current Focus
-
-- 🔭 Building full-stack web applications
-- 🤖 Exploring Machine Learning and Deep Learning fundamentals
-- 🌱 Learning advanced React patterns and system design
-- 👯 Open to collaborating on interesting projects
-- 💬 Ask me about web development, ML fundamentals, databases, or programming best practices
-- ⚡ Always exploring new technologies and methodologies
-
----
-
-## 📫 Connect
+## 📫 Connect With Me
 
 <div align="center">
-  
-        <a href="https://github.com/minhe51805">
-  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
-        </a>
-        <a href="mailto:truongminh0949@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" />
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-  
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:truongminh0949@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/minhe51805)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+
 </div>
 
 ---
 
 <div align="center">
-  
-**Thanks for visiting!** 
 
-<img src="https://komarev.com/ghpvc/?username=minhe51805&color=blueviolet&style=flat-square&label=Profile+Views" />
-  
+**💻 "Code with passion, build with purpose"**
+
+<sub>Last updated: November 2025</sub>
+
 </div>
