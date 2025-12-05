@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hi, I'm Trương Dương Bảo Minh
+# 👋 Hi, I'm TruongMinh
 
 **Full Stack Developer | AI & IoT Enthusiast**
 
