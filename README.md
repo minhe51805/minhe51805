@@ -95,8 +95,19 @@ int main() {
 
 <div align="center">
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=minhe51805&show_icons=true&theme=github_dark&hide_border=true" />
-<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=minhe51805&theme=github-dark-blue&hide_border=true" />
+<!-- GitHub Stats Card -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=minhe51805&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=minhe51805&show_icons=true&theme=default&hide_border=true&count_private=true" />
+  <img width="48%" src="https://github-readme-stats-sigma-five.vercel.app/api? username=minhe51805&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
+</picture>
+
+<!-- Streak Stats Card -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats-eight.vercel.app/? user=minhe51805&theme=github-dark-blue&hide_border=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats-eight. vercel.app/?user=minhe51805&theme=default&hide_border=true" />
+  <img width="48%" src="https://github-readme-streak-stats-eight.vercel. app/?user=minhe51805&theme=github-dark-blue&hide_border=true" />
+</picture>
 
 </div>
 
