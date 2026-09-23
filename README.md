@@ -1,147 +1,148 @@
 <div align="center">
 
-# 👋 Hi, I'm TruongMinh
+# TruongMinh
 
-**Full Stack Developer | AI & IoT Enthusiast**
+***"Evan Dev"***
 
-[![Profile Views](https://komarev.com/ghpvc/?username=minhe51805&color=0e75b6&style=flat)](https://github.com/minhe51805)
-[![GitHub followers](https://img.shields.io/github/followers/minhe51805?label=Follow&style=social)](https://github.com/minhe51805)
+**Full Stack Developer &middot; AI &amp; IoT Enthusiast**
+
+`Ho Chi Minh City, Vietnam` &nbsp;&middot;&nbsp; `HUTECH University`
+
+[![Profile Views](https://komarev.com/ghpvc/?username=minhe51805&color=0e75b6&style=flat-square&label=Profile+Views)](https://github.com/minhe51805)
+[![Followers](https://img.shields.io/github/followers/minhe51805?label=Followers&style=flat-square&color=0e75b6&logo=github)](https://github.com/minhe51805)
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## `$ whoami`
 
-<img align="right" alt="Coding" width="300" src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif">
+<img align="right" alt="Coding Cat" width="280" src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif">
 
-```cpp
-class FullStackDeveloper {
-public:
-    // Personal Info
-    string name = "Trương Dương Bảo Minh";
-    string location = "Ho Chi Minh City, Vietnam 🇻🇳";
-    string education = "HUTECH University";
-    string email = "truongminh0949@gmail.com";
-    
-    // Current Status
-    vector<string> workingOn = {
-        "Web Applications",
-        "IoT Projects"
-    };
-    
-    vector<string> learning = {
-        "Machine Learning",
-        "Cloud Architecture"
-    };
-    
-    vector<string> passions = {
-        "Clean Code",
-        "Innovation"
-    };
-    
-    void sayHi() {
-        cout << "👋 Hi! I'm a Full Stack Developer" << endl;
-        cout << "🎓 Student | 💼 Developer | 🚀 Builder" << endl;
-    }
-};
+```console
+truongminh@hutech:~$ whoami
+Truong Duong Bao Minh — Full Stack Developer
 
-int main() {
-    FullStackDeveloper minhe;
-    minhe.sayHi();
-    return 0;
-}
+truongminh@hutech:~$ cat about.txt
+location   : Ho Chi Minh City, Vietnam
+education  : HUTECH University
+email      : truongminh0949@gmail.com
+
+truongminh@hutech:~$ ls -1 current/
+working_on/    ->  Web Applications, IoT Projects
+learning/      ->  Machine Learning, Cloud Architecture
+values/        ->  Clean Code, Innovation
+
+truongminh@hutech:~$ echo "$MOTTO"
+"Code with passion, build with purpose."
 ```
 
 <br clear="right"/>
 
 ---
 
-## 🛠️ Tech Stack
+## `$ cat stack.md`
 
 **Languages**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 
-**Frontend & Mobile**
+**Frontend &amp; Mobile**
 
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 
-**Backend & Database**
+**Backend &amp; Database**
 
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Cloudflare D1](https://img.shields.io/badge/Cloudflare%20D1-F38020?style=flat-square&logo=cloudflare&logoColor=white) ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
 
-**AI/ML & IoT**
+**AI / Machine Learning**
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-000000?style=flat&logo=espressif&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+
+**IoT &amp; Smart City**
+
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white) ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white) ![NFC](https://img.shields.io/badge/NFC-4A90D9?style=flat-square&logo=nfc&logoColor=white) ![FIWARE](https://img.shields.io/badge/FIWARE-00528A?style=flat-square) ![NGSI-LD](https://img.shields.io/badge/NGSI--LD-00528A?style=flat-square)
 
 ---
 
-## 📊 GitHub Stats
+## `$ git log --projects --sort=stars`
+
+<!-- PROJECTS:START -->
+| Project | Description | Stack |
+| :--- | :--- | :--- |
+| ![stars](https://img.shields.io/github/stars/minhe51805/UrbanReflex?style=flat-square&color=f5c542&logo=github&label=%E2%98%85)<br/>[**UrbanReflex**](https://github.com/minhe51805/UrbanReflex) | Open-source smart city platform — bridges fragmented urban data into a unified NGSI-LD ecosystem | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![FIWARE](https://img.shields.io/badge/FIWARE-00528A?style=flat-square) ![Geospatial](https://img.shields.io/badge/Geospatial-2EA44F?style=flat-square&logo=openstreetmap&logoColor=white) ![ML](https://img.shields.io/badge/ML-FF6F00?style=flat-square&logo=scikitlearn&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![NGSI--LD](https://img.shields.io/badge/NGSI--LD-00528A?style=flat-square) ![Open%20Data](https://img.shields.io/badge/Open%20Data-2EA44F?style=flat-square&logo=opendatacommons&logoColor=white) ![Orion-LD](https://img.shields.io/badge/Orion-LD-00528A?style=flat-square) ![Smart%20City](https://img.shields.io/badge/Smart%20City-00528A?style=flat-square) |
+| ![stars](https://img.shields.io/github/stars/minhe51805/TabLer?style=flat-square&color=f5c542&logo=github&label=%E2%98%85)<br/>[**TableR**](https://github.com/minhe51805/TabLer) | Cross-platform desktop database client — explore schemas, write SQL, visualize results, AI-assisted | ![Cloudflare%20D1](https://img.shields.io/badge/Cloudflare%20D1-F38020?style=flat-square&logo=cloudflare&logoColor=white) ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black) ![libSQL](https://img.shields.io/badge/libSQL-0093A6?style=flat-square) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![SQL%20Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+| ![stars](https://img.shields.io/github/stars/minhe51805/hdbank_team?style=flat-square&color=f5c542&logo=github&label=%E2%98%85)<br/>[**FinLedgerAI**](https://github.com/minhe51805/hdbank_team) | Personalized finance assistant — ML propensity models, LLM advice, Zalo Bot, on-chain audit trail | ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white) |
+| ![stars](https://img.shields.io/github/stars/minhe51805/Pione_AIBlockchainIoT-WAGTeam?style=flat-square&color=f5c542&logo=github&label=%E2%98%85)<br/>[**Pione AI-Blockchain-IoT**](https://github.com/minhe51805/Pione_AIBlockchainIoT-WAGTeam) | Smart farming platform — IoT sensing, AI analysis, blockchain-verified data | ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white) |
+| ![stars](https://img.shields.io/github/stars/minhe51805/Xaydungtuonglai?style=flat-square&color=f5c542&logo=github&label=%E2%98%85)<br/>[**Xaydungtuonglai**](https://github.com/minhe51805/Xaydungtuonglai) | PHP web platform with blog, charity, auth and admin dashboard modules | ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) |
+| ![stars](https://img.shields.io/github/stars/minhe51805/Web3D?style=flat-square&color=f5c542&logo=github&label=%E2%98%85)<br/>[**Web3D E-Commerce**](https://github.com/minhe51805/Web3D) | Modern e-commerce storefront with interactive 3D product elements | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+| ![stars](https://img.shields.io/github/stars/minhe51805/Web_SmartSwitch_BangD?style=flat-square&color=f5c542&logo=github&label=%E2%98%85)<br/>[**Smart Switch Control**](https://github.com/minhe51805/Web_SmartSwitch_BangD) | Web control panel for smart switch devices with 3D model preview | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+| ![stars](https://img.shields.io/github/stars/minhe51805/Landing-page-n--c-y-n?style=flat-square&color=f5c542&logo=github&label=%E2%98%85)<br/>[**Product Landing Page**](https://github.com/minhe51805/Landing-page-n--c-y-n) | Responsive product landing page tuned for mobile, tablet and desktop breakpoints | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css&logoColor=white) |
+| ![stars](https://img.shields.io/github/stars/minhe51805/NFC-master?style=flat-square&color=f5c542&logo=github&label=%E2%98%85)<br/>[**NFC Flutter App**](https://github.com/minhe51805/NFC-master) | Flutter application for NFC card reading and writing | ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) |
+| ![stars](https://img.shields.io/github/stars/minhe51805/app_web_shopping_228060170?style=flat-square&color=f5c542&logo=github&label=%E2%98%85)<br/>[**Shopping App**](https://github.com/minhe51805/app_web_shopping_228060170) | Flutter shopping application built as a university coursework project | ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) |
+| ![stars](https://img.shields.io/github/stars/minhe51805/mamothon?style=flat-square&color=f5c542&logo=github&label=%E2%98%85)<br/>[**Mamothon**](https://github.com/minhe51805/mamothon) | Next.js web app with claim flow, contexts and a typed API layer | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+| ![stars](https://img.shields.io/github/stars/minhe51805/APP_DMT-phongDEV?style=flat-square&color=f5c542&logo=github&label=%E2%98%85)<br/>[**ESP32 CSI Desktop App**](https://github.com/minhe51805/APP_DMT-phongDEV) | PySide6 desktop tool that streams and charts ESP32 CSI sensor data | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| ![stars](https://img.shields.io/github/stars/minhe51805/DACongcu?style=flat-square&color=f5c542&logo=github&label=%E2%98%85)<br/>[**CONVOI Platform**](https://github.com/minhe51805/DACongcu) | Modular multi-purpose PHP platform bundling blog, e-commerce, charity and AI chatbot | ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) |
+| ![stars](https://img.shields.io/github/stars/minhe51805/LotusHack-2026?style=flat-square&color=f5c542&logo=github&label=%E2%98%85)<br/>[**EduPath**](https://github.com/minhe51805/LotusHack-2026) | AI study abroad counselor — every answer grounded in the center's own database, zero hallucinated figures | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+
+<sub>[See all repositories →](https://github.com/minhe51805?tab=repositories)</sub>
+<!-- PROJECTS:END -->
+
+---
+
+## `$ stat --github`
 
 <div align="center">
 
-<!-- GitHub Stats Card -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=minhe51805&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=minhe51805&show_icons=true&theme=default&hide_border=true&count_private=true" />
-  <img width="48%" src="https://github-readme-stats-sigma-five.vercel.app/api? username=minhe51805&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-one-bice.vercel.app/api?username=minhe51805&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-one-bice.vercel.app/api?username=minhe51805&show_icons=true&theme=default&hide_border=true&count_private=true" />
+  <img width="49%" alt="GitHub Stats" src="https://github-readme-stats-one-bice.vercel.app/api?username=minhe51805&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats-eight.vercel.app/?user=minhe51805&theme=github-dark-blue&hide_border=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats-eight.vercel.app/?user=minhe51805&theme=default&hide_border=true" />
+  <img width="49%" alt="GitHub Streak" src="https://github-readme-streak-stats-eight.vercel.app/?user=minhe51805&theme=github-dark-blue&hide_border=true" />
 </picture>
 
-<!-- Streak Stats Card -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats-eight.vercel.app/? user=minhe51805&theme=github-dark-blue&hide_border=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats-eight. vercel.app/?user=minhe51805&theme=default&hide_border=true" />
-  <img width="48%" src="https://github-readme-streak-stats-eight.vercel. app/?user=minhe51805&theme=github-dark-blue&hide_border=true" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=minhe51805&layout=compact&langs_count=8&theme=github_dark&hide_border=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=minhe51805&layout=compact&langs_count=8&theme=default&hide_border=true" />
+  <img width="49%" alt="Top Languages" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=minhe51805&layout=compact&langs_count=8&theme=github_dark&hide_border=true" />
 </picture>
+
+<br/>
+
+[![Total Stars](https://img.shields.io/github/stars/minhe51805?affiliations=OWNER&style=flat-square&logo=github&logoColor=white&label=Total%20Stars&color=f5c542)](https://github.com/minhe51805?tab=repositories)
+[![Followers](https://img.shields.io/github/followers/minhe51805?style=flat-square&logo=github&logoColor=white&label=Followers&color=0e75b6)](https://github.com/minhe51805)
+[![Public Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fminhe51805&query=%24.public_repos&label=Public%20Repos&logo=github&logoColor=white&style=flat-square&color=2ea44f)](https://github.com/minhe51805?tab=repositories)
+[![UrbanReflex Commits](https://img.shields.io/github/commit-activity/y/minhe51805/UrbanReflex?style=flat-square&logo=github&logoColor=white&label=UrbanReflex%20Commits%2Fy&color=8957e5)](https://github.com/minhe51805/UrbanReflex)
+</div>
+
+---
+
+## `$ ping --contact`
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-profile--cv--ahe.pages.dev-0e75b6?style=flat-square&logo=cloudflare&logoColor=white)](https://profile-cv-ahe.pages.dev)
+[![Email](https://img.shields.io/badge/Email-truongminh0949@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:truongminh0949@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-minhe51805-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/minhe51805)
 
 </div>
 
 ---
 
-## 🚀 Featured Projects
-
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| [🛒 E-Commerce Platform](https://github.com/minhe51805/app_web_shopping_228060170) | Full-featured shopping web application | `Dart` `Web` |
-| [📷 ESP32 Camera System](https://github.com/minhe51805/Esp32_Data-And-Camera) | IoT data processing with camera integration | `ESP32` `IoT` `Camera` |
-| [📲 NFC Technology](https://github.com/minhe51805/NFC-master) | NFC implementation with Flutter | `Dart` `Flutter` `NFC` |
-| [🎮 3D Web App](https://github.com/minhe51805/Web3D) | Interactive 3D web experience | `JavaScript` `WebGL` |
-| [📅 Booking System](https://github.com/minhe51805/Booking_Web_team) | Team collaboration booking platform | `Web` `Team Project` |
-| [🏠 Smart Switch Control](https://github.com/minhe51805/Web_SmartSwitch_BangD) | Smart home control interface | `IoT` `Smart Home` |
-
----
-
-## 📫 Connect With Me
-
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:truongminh0949@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/minhe51805)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+<em>"A cat always lands on its feet. A developer always lands on a stack trace."</em>
 
-</div>
+<br/>
 
----
+<sub>Thanks for stopping by — let&#39;s build something great together.</sub>
 
-<div align="center">
-
-**💻 "Code with passion, build with purpose"**
-
-<sub>Last updated: November 2025</sub>
+<!-- LAST-UPDATED:START -->
+<sub>Last updated: September 2026</sub>
+<!-- LAST-UPDATED:END -->
 
 </div>

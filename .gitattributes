@@ -1,0 +1,6 @@
+# Keep the profile README (and the updater) on LF so the auto-update
+# workflow produces a stable, line-ending-free diff on every platform.
+*.md text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
