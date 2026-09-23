@@ -61,11 +61,22 @@ appear and how they are described, edit the constants at the top of
 
 | Constant | Effect |
 | :--- | :--- |
+| `MAX_PROJECTS` | how many repos are published (currently **6** — the showcase list) |
 | `EXCLUDED` | repos that never appear (coursework, practice, the profile repo itself) |
 | `FEATURED_ORDER` | pin these first, in this exact order |
-| `CURATED` | hand written name + description, overriding GitHub's own |
+| `CURATED` | hand written name, description **and `stack`** for showcase repos |
 | `IGNORED_TOPICS` | topics too generic to render as a badge |
+| `MAX_STACK_BADGES` | badge cap per repo (currently 9) |
+| `LANGUAGE_ALIASES` | lowercase `stack` tokens → exact `LANGUAGE_BADGES` keys |
 | `LANGUAGE_BADGES` / `TOPIC_BADGES` | badge colours and [simple-icons](https://simpleicons.org) slugs |
+
+Repos beyond the top `MAX_PROJECTS` are intentionally left off the profile and
+stay reachable through the *See all repositories* link.
+
+A curated `stack` list wins over GitHub topics, which is how repos without
+topics (e.g. `Web3D` → JavaScript / Three.js / Vite / Express / SQLite) still
+advertise what they really use. Badges are de-duplicated by label and cut off
+once `MAX_STACK_BADGES` is reached, so order the list most-important-first.
 
 Anything missing from `CURATED` still shows up, falling back to the GitHub
 description or a generated `<Language> project` line.

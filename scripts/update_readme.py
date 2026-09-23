@@ -47,6 +47,38 @@ UPDATED_END = "<!-- LAST-UPDATED:END -->"
 MAX_STACK_BADGES = 9
 SHIELDS = "https://img.shields.io"
 
+# Lowercase tokens used in CURATED stacks -> exact keys of LANGUAGE_BADGES.
+LANGUAGE_ALIASES = {
+    "typescript": "TypeScript",
+    "javascript": "JavaScript",
+    "python": "Python",
+    "rust": "Rust",
+    "php": "PHP",
+    "html5": "HTML",
+    "css": "CSS",
+    "css3": "CSS",
+    "jupyter": "Jupyter Notebook",
+    "scss": "SCSS",
+    "csharp": "C#",
+    "cpp": "C++",
+    "go": "Go",
+    "java": "Java",
+    "kotlin": "Kotlin",
+    "dart": "Dart",
+    "lua": "Lua",
+    "r": "R",
+    "ruby": "Ruby",
+    "swift": "Swift",
+    "vue": "Vue",
+    "svelte": "Svelte",
+    "shell": "Shell",
+    "docker": "Dockerfile",
+    "cmake": "CMake",
+    "blade": "Blade",
+    "gdscript": "GDScript",
+    "perl": "Perl",
+}
+
 
 def badge(label: str, color: str, logo: str | None = None, logo_color: str | None = None) -> str:
     """Return a flat-square shields.io badge URL."""
@@ -162,30 +194,36 @@ IGNORED_TOPICS = {
 
 # Repos that deserve a hand written name/description instead of the raw
 # GitHub description. Anything missing here falls back to the API values.
-CURATED: dict[str, dict[str, str]] = {
+CURATED: dict[str, dict[str, object]] = {
     "UrbanReflex": {
         "name": "UrbanReflex",
         "description": "Open-source smart city platform \u2014 bridges fragmented urban data into a unified NGSI-LD ecosystem",
+        "stack": ["typescript", "nextjs", "fastapi", "postgresql", "fiware", "ngsi-ld"],
     },
     "TabLer": {
         "name": "TableR",
         "description": "Cross-platform desktop database client \u2014 explore schemas, write SQL, visualize results, AI-assisted",
+        "stack": ["typescript", "rust", "tauri", "duckdb", "postgresql", "mongodb", "redis", "sqlite"],
     },
     "hdbank_team": {
         "name": "FinLedgerAI",
         "description": "Personalized finance assistant \u2014 ML propensity models, LLM advice, Zalo Bot, on-chain audit trail",
+        "stack": ["python", "jupyter", "react", "solidity", "redis"],
     },
     "Pione_AIBlockchainIoT-WAGTeam": {
         "name": "Pione AI-Blockchain-IoT",
         "description": "Smart farming platform \u2014 IoT sensing, AI analysis, blockchain-verified data",
+        "stack": ["python", "jupyter", "esp32", "ethereum", "solidity"],
     },
     "Xaydungtuonglai": {
         "name": "Xaydungtuonglai",
         "description": "PHP web platform with blog, charity, auth and admin dashboard modules",
+        "stack": ["php", "mysql", "javascript", "html5", "css"],
     },
     "Web3D": {
         "name": "Web3D E-Commerce",
         "description": "Modern e-commerce storefront with interactive 3D product elements",
+        "stack": ["javascript", "threejs", "vite", "express", "sqlite"],
     },
     "Web_SmartSwitch_BangD": {
         "name": "Smart Switch Control",
@@ -229,11 +267,10 @@ FEATURED_ORDER = [
     "Pione_AIBlockchainIoT-WAGTeam",
     "Xaydungtuonglai",
     "Web3D",
-    "Web_SmartSwitch_BangD",
-    "Landing-page-n--c-y-n",
-    "NFC-master",
-    "app_web_shopping_228060170",
 ]
+
+# Only the six most notable projects are listed; everything else stays on GitHub.
+MAX_PROJECTS = 6
 
 # Repos that must never be listed (the profile repo itself, scratch folders...).
 EXCLUDED = {
@@ -296,7 +333,11 @@ def clean_cell(text: str) -> str:
 
 
 def stack_badges(repo: dict) -> list[str]:
-    """Build the ordered, de-duplicated badge list for one repository."""
+    """Build the ordered, de-duplicated badge list for one repository.
+
+    Hand curated stacks win over GitHub topics/language so showcase projects
+    always advertise the stack they actually use.
+    """
     seen: set[str] = set()
     out: list[str] = []
 
@@ -307,6 +348,18 @@ def stack_badges(repo: dict) -> list[str]:
         seen.add(label)
         out.append(f"![{label}]({badge(label, color, logo, logo_color)})")
 
+    curated = CURATED.get(repo["name"]) or {}
+    for token in curated.get("stack") or []:
+        spec = (
+            TOPIC_BADGES.get(token)
+            or LANGUAGE_BADGES.get(token)
+            or LANGUAGE_BADGES.get(LANGUAGE_ALIASES.get(token, ""))
+        )
+        if spec:
+            push(spec)
+        if len(out) >= MAX_STACK_BADGES:
+            return out[:MAX_STACK_BADGES]
+
     for topic in repo.get("topics") or []:
         topic = topic.lower()
         if topic in IGNORED_TOPICS:
@@ -315,7 +368,7 @@ def stack_badges(repo: dict) -> list[str]:
         if spec:
             push(spec)
         if len(out) >= MAX_STACK_BADGES:
-            return out
+            return out[:MAX_STACK_BADGES]
 
     language = repo.get("language")
     if language:
@@ -348,13 +401,17 @@ def sort_key(repo: dict) -> tuple:
 
 
 def render_table(repos: list[dict]) -> str:
-    """Render the full markdown block (table + link) for the projects section."""
+    """Render the markdown block (table + link) for the projects section.
+
+    Only ``MAX_PROJECTS`` entries are listed so the profile stays readable;
+    the "see all repositories" link covers everything else.
+    """
     lines = [
         "| Project | Description | Stack |",
         "| :--- | :--- | :--- |",
     ]
 
-    for repo in sorted(repos, key=sort_key):
+    for repo in sorted(repos, key=sort_key)[:MAX_PROJECTS]:
         name = repo["name"]
         meta = CURATED.get(name, {})
         title = meta.get("name", name)
