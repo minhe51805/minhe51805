@@ -220,11 +220,6 @@ CURATED: dict[str, dict[str, object]] = {
         "description": "PHP web platform with blog, charity, auth and admin dashboard modules",
         "stack": ["php", "mysql", "javascript", "html5", "css"],
     },
-    "Web3D": {
-        "name": "Web3D E-Commerce",
-        "description": "Modern e-commerce storefront with interactive 3D product elements",
-        "stack": ["javascript", "threejs", "vite", "express", "sqlite"],
-    },
     "Web_SmartSwitch_BangD": {
         "name": "Smart Switch Control",
         "description": "Web control panel for smart switch devices with 3D model preview",
@@ -266,16 +261,16 @@ FEATURED_ORDER = [
     "hdbank_team",
     "Pione_AIBlockchainIoT-WAGTeam",
     "Xaydungtuonglai",
-    "Web3D",
 ]
 
-# Only the six most notable projects are listed; everything else stays on GitHub.
-MAX_PROJECTS = 6
+# Only the five most notable projects are listed; everything else stays on GitHub.
+MAX_PROJECTS = 5
 
 # Repos that must never be listed (the profile repo itself, scratch folders...).
 EXCLUDED = {
     USERNAME,
     "Profile_cv",
+    "Web3D",
     "copy-mathematical",
     "ser",
     "B1",

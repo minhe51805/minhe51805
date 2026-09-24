@@ -61,7 +61,7 @@ appear and how they are described, edit the constants at the top of
 
 | Constant | Effect |
 | :--- | :--- |
-| `MAX_PROJECTS` | how many repos are published (currently **6** — the showcase list) |
+| `MAX_PROJECTS` | how many repos are published (currently **5** — the showcase list) |
 | `EXCLUDED` | repos that never appear (coursework, practice, the profile repo itself) |
 | `FEATURED_ORDER` | pin these first, in this exact order |
 | `CURATED` | hand written name, description **and `stack`** for showcase repos |
@@ -74,7 +74,7 @@ Repos beyond the top `MAX_PROJECTS` are intentionally left off the profile and
 stay reachable through the *See all repositories* link.
 
 A curated `stack` list wins over GitHub topics, which is how repos without
-topics (e.g. `Web3D` → JavaScript / Three.js / Vite / Express / SQLite) still
+topics (e.g. `TabLer` → TypeScript / Rust / Tauri / SQLite / MongoDB) still
 advertise what they really use. Badges are de-duplicated by label and cut off
 once `MAX_STACK_BADGES` is reached, so order the list most-important-first.
 
