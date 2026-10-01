@@ -122,7 +122,7 @@ truongminh@hutech:~$ echo "$MOTTO"
 <sub>Thanks for stopping by — let&#39;s build something great together.</sub>
 
 <!-- LAST-UPDATED:START -->
-<sub>Last updated: September 2026</sub>
+<sub>Last updated: October 2026</sub>
 <!-- LAST-UPDATED:END -->
 
 </div>
